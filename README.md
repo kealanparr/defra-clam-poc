@@ -8,7 +8,7 @@ Basic POC to containerise a Node app and run a virus scanner on file upload.
 2. Containerise it ✅
 3. Run clam
 
-## To run
+## To run as a container
 
 This service is containerised, so run:
 
@@ -27,3 +27,13 @@ Now, run:
 And now the application is accessible on:
 
 > http://localhost:49160/
+
+## To run locally
+
+You can simply run:
+
+> `node index.js`
+
+And the app will start and be accessible on 
+
+> http://localhost:7000
