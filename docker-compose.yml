@@ -1,8 +1,0 @@
-version: "3.9"
-services:
-  node-upload:
-    build: .
-    ports:
-      - "49160:8080"
-  clamav:
-    image: "clamav/clamav"
