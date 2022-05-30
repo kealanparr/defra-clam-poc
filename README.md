@@ -6,9 +6,10 @@ Basic POC to containerise a Node app and run a virus scanner on file upload.
 
 1. Make basic file upload website ✅
 2. Containerise it ✅
-3. Run clam
+3. Run clam ✅
+4. Get Clam scanning an uploaded file
 
-## To run as a container
+## To run as a container isolated
 
 This service is containerised, so run:
 
@@ -37,3 +38,11 @@ You can simply run:
 And the app will start and be accessible on 
 
 > http://localhost:7000
+
+## To run the entire application
+
+The entire application is a basic file upload Node app and a ClamAV container that scans the uploaded files
+
+To run both containers, you can simple run:
+
+> `docker-compose up`
